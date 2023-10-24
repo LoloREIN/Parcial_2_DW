@@ -17,7 +17,9 @@ body {
 .container-bone {
   background-color: #F8F8FA;
 }
-
-.Title {
-  font-size: 64px;
+.btn-purple{
+    background-color: #E6E5FD;
+}
+.Title{
+    font-size: 64px;
 }
