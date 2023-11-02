@@ -157,3 +157,21 @@ body {
 .Title {
   font-size: 64px;
 }
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas con igual ancho */
+
+}
+
+.image-box {
+
+    padding: 1px; /* Espacio alrededor de cada imagen (opcional) */
+    box-sizing: border-box; /* Incluye el borde y el espacio en el tamaño */
+}
+
+.image-box img {
+    border-radius: 5px;
+    width: 20px; /* Ajustar el ancho de la imagen al 100% del contenedor */
+    height: 20px; /* Ajustar la altura de la imagen al 100% del contenedor */
+    object-fit: cover; /* Ajustar la imagen al contenedor */
+}
