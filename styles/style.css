@@ -1,129 +1,111 @@
-.color-morado {
-  background: linear-gradient(90deg, rgba(104, 253, 255, 1) 0%, rgba(179, 82, 255, 1) 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.horizontal-rounded-rectangle {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(240, 240, 240);
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  align-items: center;
-  flex-shrink: 0;
-
-
-}
-
-.cart-container {
-  background-color: rgb(240, 240, 240);
-}
-
-.cart-badge {
-  background-color: #796ce1;
-  /* Color de fondo del círculo */
-  color: black;
-  /* Color del número */
-  border-radius: 100%;
-  /* Hace que el círculo sea redondeado */
-  width: 20%;
-  /* Ancho del círculo */
-  height: 20%;
-  /* Altura del círculo */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* Espacio entre el icono de carrito y el número */
-
-}
-
-.h10 {
-  font-size: x-small;
-  color: black;
-  display: flex;
-
-}
-
-.h13 {
-  font-size: x-small;
-  color: black;
-  display: flex;
-
-}
-
-.h11 {
-  font-size: x-small;
-  color: #cfc8c8;
-  display: flex;
-
-}
-
-.h14 {
-  font-size: x-small;
-  color: #cfc8c8;
-  display: flex;
-
-}
-
-.circle-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 24%;
-  /* Ancho del círculo */
-  height: 24%;
-  /* Altura del círculo */
-  background-color: #796ce1;
-  /* Color de fondo del círculo */
-  color: white;
-  /* Color del icono */
-  border-radius: 100%;
-  /* Hace que el círculo sea redondeado */
-  margin-left: 5px;
-  /* Espacio entre "View all" y el círculo */
-}
-
-.money-container {
-  display: flex;
-  align-content: flex-start;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  background-color: rgb(240, 240, 240);
-  /* Color de fondo del contenedor del carrito */
-  color: black;
-  /* Color del texto */
-  border-radius: 20px;
-  /* Radio de los bordes redondeados para el contenedor del carrito */
-  padding: 5px 10px;
-  /* Espaciado interno */
-  flex-shrink: 0;
-}
-
-.user-container {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
-  background-position: center center;
-  background-image: url("https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&q=80&w=1171&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta real de tu imagen */
-  background-size: cover;
-  /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
-
-  border-radius: 20px;
-  /* Radio de los bordes redondeados para el contenedor del carrito */
-  padding: 5px 10px;
-  /* Espaciado interno */
-  flex-shrink: 0;
-}
+css .color-morado {
+    background: linear-gradient(90deg, rgba(104, 253, 255, 1) 0%, rgba(179, 82, 255, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .title{
+      color: #796ce1;
+     font-style: italic;
+     display: flex;
+     font-family: 'Playpen Sans', cursive;
+      font-weight: bold;
+      font-size: x-large;
+      justify-content: center;
+      align-items: center;
+  }
+  .horizontal-rounded-rectangle {
+      width: 80%;
+      background-color:rgb(170, 170, 170); 
+      border-radius: 20px; 
+      display: flex;
+      flex: 1;
+   
+  
+  }
+  .cart-container {
+      display: flex;
+      width: 5%;
+      align-items: center;
+      justify-content: center;
+      font-size: x-small;
+      background-color:rgb(170, 170, 170); 
+      border-radius: 20px; 
+  }
+  
+  .cart-badge {
+      background-color: #796ce1; /* Color de fondo del círculo */
+      color: black; /* Color del número */
+      border-radius: 50%; /* Hace que el círculo sea redondeado */
+      width: 24%; /* Ancho del círculo */
+      height: 22%; /* Altura del círculo */
+      justify-content: center;
+      align-items: center;
+      font-size: xx-small;
+  
+      margin-bottom: 50%; /* Espacio entre el icono de carrito y el número */
+  
+  }
+  
+  .h10{
+      font-size: x-small;
+      color:black;
+      display: flex;
+      
+  }
+  .h13{
+      font-size: x-small;
+      color:black;
+      display: flex;
+      
+  }
+  
+  .h11{
+      font-size:x-small;
+      color: rgb(170, 170, 170); 
+      display: flex;
+      
+  }
+  .h14{
+      font-size: x-small;
+      color: #cfc8c8;
+      display: flex;
+      
+  }
+  .circle-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 12%; /* Ancho del círculo */
+      height: 30%; /* Altura del círculo */
+      background-color: #796ce1; /* Color de fondo del círculo */
+      color: white; /* Color del icono */
+      border-radius: 25px; /* Hace que el círculo sea redondeado */
+      margin-left: 5px; /* Espacio entre "View all" y el círculo */
+  }
+  .money-container {
+      
+      width: 7%;
+      background-color:rgb(170, 170, 170); 
+      border-radius: 20px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow-y: auto;
+      
+  
+  }
+  .user-container {
+      width: 5%;
+      background-color: rgb(170, 170, 170);
+      border-radius: 20px;
+      display: flex; /* Utiliza flexbox para centrar horizontalmente */
+      align-items: center;
+      justify-content: center; /* Centra vertical y horizontalmente */
+      background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+      background-position: center;
+      background-image: url("https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&q=80&w=1171&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  }
 
 body {
   background-color: #E0E7F7;
