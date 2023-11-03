@@ -190,3 +190,29 @@ body {
   object-fit: cover;
   /* Ajustar la imagen al contenedor */
 }
+
+
+.image-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 1px;
+
+}
+
+.image-box2 {
+  align-items: baseline;
+  height: 25px;
+
+  padding: 1px;
+
+}
+
+.image-box2 img {
+  border-radius: 5px;
+  width: 20px;
+  /* Ajustar el ancho de la imagen al 100% del contenedor */
+  height: 20px;
+  /* Ajustar la altura de la imagen al 100% del contenedor */
+align-items: baseline;
+  /* Ajustar la imagen al contenedor */
+}
